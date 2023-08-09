@@ -1,0 +1,11 @@
+:root {
+  --col: repeat(3, 6rem);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: var(--col);
+    place-items: center;
+    justify-content: center;
+  }
+
